@@ -1,0 +1,14 @@
+<ProfileScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 10
+
+        Label:
+            id: profile_label
+            text: 'User Profile'
+            font_size: 32
+
+        Button:
+            text: 'Back to Main'
+            on_release: root.manager.current = 'main'
